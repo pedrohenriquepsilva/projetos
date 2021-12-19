@@ -124,8 +124,10 @@ a.active,a:hover {
 
 @media(max-width: 700px) {
     #descriçao {
-        height: 455px;
-        padding: 85px;
+        display: grid;
+        place-items: center;
+        /*height: 455px;
+        padding: 85px;*/
     }
 
     #descriçao p {
