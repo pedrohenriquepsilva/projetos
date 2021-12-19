@@ -117,7 +117,7 @@ a.active,a:hover {
 
 #descriçao {
     height: 400px;
-    padding: 140px;
+    padding: 130px;
     background-color: var(--cor0);
     text-align: left;
 }
@@ -125,7 +125,7 @@ a.active,a:hover {
 @media(max-width: 700px) {
     #descriçao {
         height: 455px;
-        padding: 100px;
+        padding: 85px;
     }
 
     #descriçao p {
