@@ -159,7 +159,7 @@ a.active,a:hover {
 #imagens {
     background-color: var(--cor0);
     display: grid;
-    grid-template-columns: repeat(4, 2fr);
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .img {
@@ -169,8 +169,8 @@ a.active,a:hover {
 
 @media(max-width: 900px) {
     .img {
-        height: 200px;
-        width: auto;
+        height: 100%;
+        width: 100%;
     }
 }
 
@@ -185,13 +185,14 @@ a.active,a:hover {
 
 main {
     background-color: #131313;
-    padding: 50px;
+    /*padding: 30px 0px 30px 50px;*/
 }
 
 .divmain {
     display: flex;
     gap: 30px;
-    margin-bottom: 35px;
+    padding: 25px;
+    /*margin-bottom: 35px;*/
 }
 
 .divmain2 h1 {
@@ -218,7 +219,7 @@ main {
 }
 
 .img2 {
-    width: 350px;
+    width: 400px;
     box-shadow: 3px 3px 8px #0000002a;
 }
 
