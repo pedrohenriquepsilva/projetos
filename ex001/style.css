@@ -117,15 +117,15 @@ a.active,a:hover {
 
 #descriçao {
     height: 400px;
-    padding: 130px;
+    display: grid;
+    place-items: center;
+    padding-top: 80px;
     background-color: var(--cor0);
     text-align: left;
 }
 
 @media(max-width: 700px) {
     #descriçao {
-        display: grid;
-        place-items: center;
         /*height: 455px;
         padding: 85px;*/
     }
