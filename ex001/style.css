@@ -160,8 +160,6 @@ a.active,a:hover {
     background-color: var(--cor0);
     display: grid;
     grid-template-columns: repeat(4, 2fr);
-    display: flex;
-    flex-direction: row;
 }
 
 .img {
@@ -176,12 +174,12 @@ a.active,a:hover {
     }
 }
 
-@media(min-width: 900px) {
+/*@media(min-width: 900px) {
     .img {
         height: 370px;
         width: 100%;
     }
-}
+}*/
 
 /*CONTENT*/
 
@@ -257,6 +255,11 @@ footer {
     }
 }
 
+#footer2 {
+    display: grid;
+    align-items: center;
+}
+
 footer a {
     color: white;
 }
@@ -267,7 +270,7 @@ footer p {
 }
 
 #footerdiv3 {
-    width: 400px;
+    width: 320px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
