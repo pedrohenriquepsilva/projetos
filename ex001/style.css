@@ -170,7 +170,7 @@ a.active,a:hover {
 @media(max-width: 900px) {
     .img {
         height: 200px;
-        width: 100%;
+        width: auto;
     }
 }
 
@@ -181,7 +181,7 @@ a.active,a:hover {
     }
 }*/
 
-/*CONTENT*/
+/*CONTENT main*/
 
 main {
     background-color: #131313;
@@ -191,7 +191,7 @@ main {
 .divmain {
     display: flex;
     gap: 30px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .divmain2 h1 {
@@ -270,14 +270,14 @@ footer p {
 }
 
 #footerdiv3 {
-    width: 320px;
+    width: 310px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
 }
 
 #footerdiv4 {
-    width: 400px;
+    width: auto;
 }
 
 #footerdiv4 div {
