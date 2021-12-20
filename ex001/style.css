@@ -126,12 +126,14 @@ a.active,a:hover {
 
 @media(max-width: 700px) {
     #descriçao {
+        display: grid;
+        align-items: left;
         /*height: 455px;
         padding: 85px;*/
     }
 
     #descriçao p {
-        width: 320px;
+        width: 290px;
     }
 }
 
