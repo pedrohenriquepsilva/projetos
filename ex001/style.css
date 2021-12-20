@@ -152,6 +152,7 @@ a.active,a:hover {
     color: white;
     text-decoration: underline;
     transition: ease-in-out;
+    margin-bottom: 30px;
 }
 
 #descriçao a:hover {
